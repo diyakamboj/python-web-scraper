@@ -56,3 +56,46 @@ graph TD;
 - argparse: A standard library for parsing command-line arguments, making the script more flexible and user-friendly.
 - string: Provides useful string manipulation functions.
   
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/diyakamboj/python-web-scraper
+cd python-web-scraper
+```
+
+2. Create and activate virtual environment:
+```bash
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# Unix/MacOS
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+1. Run the script:
+
+```bash
+python web-scrapper-python.py https://www.example.com
+```
+2. Output: The script will save the scraped content into a text file named `<domain>_<group>_content.txt` in the current working directory.
+
+Example
+To scrape content from `https://www.example.com`, run
+
+```bash
+python web-scrapper-python.py https://www.example.com
+```
+
+This will fetch the sitemap, extract URLs, group them, and save the content into a text file.
+
+## Conclusion
+This Python web scraper is a simple yet powerful tool for extracting content from websites. By leveraging Python's rich ecosystem of libraries, it provides a robust solution for web scraping tasks.
