@@ -4,6 +4,8 @@
 ![Requests](https://img.shields.io/badge/Requests-2.25.1-green)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.9.3-yellow)
 ![Colorama](https://img.shields.io/badge/Colorama-0.4.4-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/diyakamboj/python-web-scraper)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -84,7 +86,7 @@ pip install -r requirements.txt
 1. Run the script:
 
 ```bash
-python web-scrapper-python.py https://www.example.com
+python python-web-scraper.py https://www.example.com
 ```
 2. Output: The script will save the scraped content into a text file named `<domain>_<group>_content.txt` in the current working directory.
 
@@ -92,7 +94,7 @@ Example
 To scrape content from `https://www.example.com`, run
 
 ```bash
-python web-scrapper-python.py https://www.example.com
+python python-web-scraper.py https://www.example.com
 ```
 
 This will fetch the sitemap, extract URLs, group them, and save the content into a text file.
