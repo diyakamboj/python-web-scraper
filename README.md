@@ -1,8 +1,8 @@
 # Python Web Scraper
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Requests](https://img.shields.io/badge/Requests-2.25.1-green)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.9.3-yellow)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Requests](https://img.shields.io/badge/Requests-2.26.0-green)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.10.0-yellow)
 ![Colorama](https://img.shields.io/badge/Colorama-0.4.4-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Last Commit](https://img.shields.io/github/last-commit/diyakamboj/python-web-scraper)
